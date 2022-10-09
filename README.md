@@ -11,7 +11,7 @@ Due to the space limits of Github, we put all the data sets on the google drive:
 
 
 
-The explanation of each "Run" files:
+The explanation of each "Run" file:
 
 TC_Run() and TC_on_ImageClustering(): The codes for the reproduction of the results in the main article.
 
