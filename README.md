@@ -7,6 +7,6 @@ If you want to use the fast version (TorqueClustering_kdtree) of TC for large da
 
 The explanation of each "Run" files:
 
-TC_Run() and TC_on_ImageClustering: The codes for the reproduction of the results in the main article.
+TC_Run() and TC_on_ImageClustering(): The codes for the reproduction of the results in the main article.
 
 TC_Run_Supplementary(): The codes for the reproduction of the results in the supplementary information.
