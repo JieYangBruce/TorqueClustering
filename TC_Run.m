@@ -183,15 +183,6 @@ DM=pdist2(data,data,'cosine');[idx]=TorqueClustering(DM,0); NC=numel(unique(idx)
 AMI = ami(datalabels,idx)
 
 
-clear;
-disp('For Atom data set:')
-data=importdata('atom.mat');
-datalabels=importdata('atomlabels.mat');
-DM=pdist2(data,data);[idx]=TorqueClustering(DM,0); 
-NC=numel(unique(idx)),
-[NMI,AC]=evaluatecluster(idx,datalabels)
-AMI = ami(datalabels,idx)
-
 
 clear;
 disp('For S.disease data set:')
