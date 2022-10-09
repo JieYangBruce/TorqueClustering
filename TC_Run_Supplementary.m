@@ -1,6 +1,6 @@
 %%
 disp('TC results on 27 data sets with noise, outliers, overlaps, or other peculiar distribution')
-addpath(genpath('../data/Peculiar data'))
+addpath(genpath('../data/supplement data'))
 
 disp('Noise1')
 clear;
