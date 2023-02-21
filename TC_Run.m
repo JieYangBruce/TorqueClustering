@@ -120,10 +120,10 @@ AMI = ami(datalabels,idx)
 
 clear;
 disp('For MNIST70k data set:')
-data=importdata('mnist70k.mat');
-datalabels=data.datalabels;
-data=data.data;
-DM=pdist2(data,data,'cosine');[idx]=TorqueClustering(DM,0); NC=numel(unique(idx)), 
+data=importdata('MNIST_UMAP.mat');
+datalabels=data.datalabels;data=data.data;
+DM=pdist2(data,data);
+[idx]=TorqueClustering(DM,0); NC=numel(unique(idx)), 
 [NMI,AC]=evaluatecluster(idx,datalabels)
 AMI = ami(datalabels,idx)
 
