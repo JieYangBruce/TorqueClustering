@@ -4,7 +4,7 @@ This project is for the reproduction of the results of the Torque Clustering (TC
 
 You need to put all the ".mat" files into one folder.
 
-Due to the space limits of Github, we put all the data sets on the google drive: https://drive.google.com/file/d/19RChX5s3htai6YWBiWYn3m5WY1OXI-Nf/view?usp=sharing
+Due to the space limits of Github, we put all the data sets on the google drive: https://drive.google.com/file/d/1ddvBAfxtR9wKKM7IAhNfD9HQ_kyhmceD/view?usp=sharing, the txt version of the data sets is also available: https://drive.google.com/file/d/1cPz7KvnLCPx-j6nWOl-juOMTtIWlmW3Y/view?usp=sharing.
 
 The explanation of each "Run" file:
 
