@@ -7,6 +7,8 @@
 <h3>Usage and implementation</h3>
 
 This project is for the reproduction of the results of the Torque Clustering algorithm based on Matlab2019b.
+**Note:** This open-source implementation is provided to allow reproduction of the accuracy results reported in our paper.  
+It is NOT intended as an optimized or production-ready version.  
 
 You need to put all the ".m" files into one folder.
 
