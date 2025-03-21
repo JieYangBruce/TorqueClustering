@@ -22,7 +22,7 @@ The `TorqueClustering` function performs clustering based on a distance matrix. 
 - **`K`** *(integer)*:  
   Specifies the number of clusters:
   - `K = 0`: **Automatic mode** – The algorithm automatically determines the number of clusters.
-  - `K ≠ 0`: **Manual mode** – The algorithm removes the top `K-1` connections with the highest “torque” to obtain the clusters.
+  - `K ≠ 0`: **Manual mode** – The algorithm manually sets the final number of clusters to `K`.
 
 - **`isnoise`** *(0 or 1)*:  
   Determines whether to detect noise clusters:
