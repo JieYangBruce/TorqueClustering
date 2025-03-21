@@ -6,6 +6,50 @@
 
 <h3>Usage and implementation</h3>
 
+## TorqueClustering Function Usage
+
+The `TorqueClustering` function performs clustering based on a distance matrix. It supports both **automatic cluster number determination** and **manual cluster number specification**.
+
+### Function Signature:
+```matlab
+[Idx, Idx_with_noise] = TorqueClustering(ALL_DM, K, isnoise, isfig)
+```
+
+### Input Arguments:
+- **`ALL_DM`** *(n × n matrix)*:  
+  The distance matrix of `n` data samples.
+
+- **`K`** *(integer)*:  
+  Specifies the number of clusters:
+  - `K = 0`: **Automatic mode** – The algorithm automatically determines the number of clusters.
+  - `K ≠ 0`: **Manual mode** – The algorithm removes the top `K-1` connections with the highest “torque” to obtain the clusters.
+
+- **`isnoise`** *(0 or 1)*:  
+  Determines whether to detect noise clusters:
+  - `isnoise = 1`: Detects noise clusters.
+  - `isnoise = 0`: No noise detection.
+
+- **`isfig`** *(0 or 1)*:  
+  Determines whether to draw the decision graph:
+  - `isfig = 1`: Draws the decision graph.
+  - `isfig = 0`: Does not draw the graph.
+
+### Output:
+- **`Idx`** *(n × 1 array)*:  
+  The final cluster labels for each data point.
+
+- **`Idx_with_noise`** *(n × 1 array)*:  
+  The cluster labels including noise. Noise points are labeled as `0`.
+
+### Example Usage:
+```matlab
+% Example 1: Automatic clustering with decision graph
+[Idx, Idx_with_noise] = TorqueClustering(DM, 0, 1, 1);
+
+% Example 2: Manual clustering with K = 5 clusters, without noise detection
+[Idx, Idx_with_noise] = TorqueClustering(DM, 5, 0, 0);
+```
+
 This project is for the reproduction of the accuracy results of the Torque Clustering algorithm as reported in our paper.
  
 You need to put all the ".m" files into one folder.
