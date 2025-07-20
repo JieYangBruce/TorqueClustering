@@ -75,7 +75,7 @@ A community-contributed Python version can be found here:
 [https://github.com/Cognet-74/TorqueClusteringPy]
 
 We appreciate community efforts to explore the algorithm. 
-
+Please note this version is **unofficial** and may differ from the MATLAB implementation or our original TPAMI paper.
 <h3>**Citation**</h3>
 
 If you find our codes useful, please cite our paper:  
@@ -89,12 +89,12 @@ All code in this repository was **exclusively written and implemented by Jie Yan
 
 **Unauthorized modifications, claims of ownership, or attempts to commercialize this code are strictly prohibited.**  
 
-For inquiries regarding licensing, please contact:  
+For inquiries regarding licensing or collaborations, please contact:  
 📩 [jie.yang.uts@gmail.com](mailto:jie.yang.uts@gmail.com).
 
 ---
 
-**The code and Torque Clustering algorithm is not meant for commercial use. Please contact the author (jie.yang.uts@gmail.com) for licensing information.**
+**The code and Torque Clustering algorithm is not meant for commercial use. **
 
 <h4>**License**</h4>
 
