@@ -69,6 +69,13 @@ TorqueClustering_Run_Supplementary.m: The codes for the reproduction of the resu
 - It is **NOT** intended as an optimized or production-ready version.  
 - We plan to release a high-efficiency version of Torque Clustering with parallel processing in the future.
 
+### 🐍 Python Version (Community-Contributed, Unofficial)
+
+A community-contributed Python version can be found here:  
+[https://github.com/Cognet-74/TorqueClusteringPy]
+
+We appreciate community efforts to explore the algorithm. 
+
 <h3>**Citation**</h3>
 
 If you find our codes useful, please cite our paper:  
