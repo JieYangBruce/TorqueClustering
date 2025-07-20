@@ -93,7 +93,7 @@ For inquiries regarding licensing or collaborations, please contact:
 📩 [jie.yang.uts@gmail.com](mailto:jie.yang.uts@gmail.com).
 
 ---
-
+**We welcome academic users to explore and build upon this work, under the terms of the license.**
 **The code and Torque Clustering algorithm is not meant for commercial use.**
 
 <h4>**License**</h4>
