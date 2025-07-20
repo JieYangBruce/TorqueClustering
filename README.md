@@ -94,7 +94,7 @@ For inquiries regarding licensing or collaborations, please contact:
 
 ---
 **We welcome academic users to explore and build upon this work, under the terms of the license.**
-**The code and the Torque Clustering algorithm are not intended for commercial use unless explicitly licensed by the author.**
+**Commercial use of the code or the Torque Clustering algorithm is not permitted without explicit permission from the author.**
 
 <h4>**License**</h4>
 
