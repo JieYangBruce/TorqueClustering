@@ -87,14 +87,14 @@ The pre-print version of this paper is [here](https://www.computer.org/csdl/jour
 ## **📜 Code Ownership & Copyright**
 All code in this repository was **exclusively written and implemented by Jie Yang**, and the **copyright belongs to Jie Yang**.  
 
-**Unauthorized modifications, claims of ownership, or attempts to commercialize this code are strictly prohibited.**  
+**Unauthorized modification, misattribution of authorship, or commercial use of this code is strictly prohibited under the license terms.**  
 
 For inquiries regarding licensing or collaborations, please contact:  
 📩 [jie.yang.uts@gmail.com](mailto:jie.yang.uts@gmail.com).
 
 ---
 
-**The code and Torque Clustering algorithm is not meant for commercial use. **
+**The code and Torque Clustering algorithm is not meant for commercial use.**
 
 <h4>**License**</h4>
 
