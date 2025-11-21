@@ -4,7 +4,7 @@
 
 ![Torque Clustering Results](Torque_Clustering_Results.png)
 
-🚀 ## New: High-performance TORC MEX (Windows)
+🚀 **New: High-performance TORC MEX (Windows)**
 
 We now officially release a faster implementation of Torque Clustering, **TORC.mexw64** (TORC is the official abbreviation of *TORque Clustering*).  
 `TORC` has exactly the same function signature and behaviour as `TorqueClustering.p` (same inputs, same outputs), but runs significantly faster in practice.  
