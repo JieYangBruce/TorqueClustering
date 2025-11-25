@@ -1,4 +1,4 @@
-# <h1>The official implementation of Torque Clustering Algorithm</h1>
+# <h1>The official implementation of Torque Clustering (TORC) Algorithm</h1>
 
 <h2>Autonomous clustering by fast find of mass and distance peaks</h2>
 
@@ -6,9 +6,10 @@
 
 🚀 **New: High-performance TORC MEX (Windows)**
 
-We now officially release a faster implementation of Torque Clustering, **TORC.mexw64** (TORC is the official abbreviation of *TORque Clustering*).  
+We now officially release a high-performance implementation of Torque Clustering, **TORC.mexw64**.  
+**TORC** is the official acronym for *TORque Clustering* used in our TPAMI paper; some early drafts and third-party works used the temporary shorthand “TC”, which is now deprecated.  
 `TORC` has exactly the same function signature and behaviour as `TorqueClustering.p` (same inputs, same outputs), but runs significantly faster in practice.  
-You can call `TORC(ALL_DM, K, isnoise, isfig)` in exactly the same way as `TorqueClustering` — enjoy.
+You can call `TORC(ALL_DM, K, isnoise, isfig)` in exactly the same way as `TorqueClustering`. For new projects and citations, please refer to the method as *Torque Clustering (TORC)*.
 
 <h3>Usage and implementation</h3>
 
