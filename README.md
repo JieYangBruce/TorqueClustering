@@ -4,7 +4,7 @@
 
 ![Torque Clustering Results](Torque_Clustering_Results.png)
 
-🚀 New: High-performance TORC MEX (Windows)
+🚀 **New: High-performance TORC MEX (Windows)**
 
 We now provide a high-performance implementation of Torque Clustering, `TORC.mexw64`.  
 **TORC** is the acronym for *TORque Clustering* used in our TPAMI paper. You may still see the shorthand “TC” in some earlier drafts and papers, but in this repository we simply use the unified name *Torque Clustering (TORC)* for consistency.  
