@@ -7,9 +7,10 @@
 🚀 **New: High-performance TORC MEX (Windows)**
 
 We now officially release a high-performance implementation of Torque Clustering, **TORC.mexw64**.  
-**TORC** is the official acronym for *TORque Clustering* used in our TPAMI paper; some early drafts and third-party works used the temporary shorthand “TC”, which is now deprecated.  
+**TORC** is the official acronym for *TORque Clustering* used in our TPAMI paper. You may see the shorthand “TC” in some earlier drafts and papers, but in this repository and our recent work we consistently use *Torque Clustering (TORC)*.  
 `TORC` has exactly the same function signature and behaviour as `TorqueClustering.p` (same inputs, same outputs), but runs significantly faster in practice.  
-You can call `TORC(ALL_DM, K, isnoise, isfig)` in exactly the same way as `TorqueClustering`. For new projects and citations, please refer to the method as *Torque Clustering (TORC)*.
+You can call `TORC(ALL_DM, K, isnoise, isfig)` in exactly the same way as `TorqueClustering`. For new projects and citations, we recommend using the name *Torque Clustering (TORC)*.
+
 
 <h3>Usage and implementation</h3>
 
@@ -57,7 +58,7 @@ The `TorqueClustering` function performs clustering based on a distance matrix. 
 [Idx, Idx_with_noise] = TorqueClustering(DM, 5, 0, 0);
 ```
 
-This project is for the reproduction of the accuracy results of the Torque Clustering algorithm as reported in our paper.
+This project is for the reproduction of the accuracy results of the Torque Clustering (TORC) algorithm as reported in our paper.
  
 You need to put all the ".m" files into one folder.
 
@@ -74,7 +75,7 @@ TorqueClustering_Run_Supplementary.m: The codes for the reproduction of the resu
 ⚠️ **Note:**  
 - This open-source implementation is provided to allow reproduction of the accuracy results reported in our paper.  
 - It is **NOT** intended as an optimized or production-ready version.  
-- We plan to release a high-efficiency version of Torque Clustering with parallel processing in the future.
+- We plan to release a high-efficiency version of Torque Clustering (TORC) with parallel processing in the future.
 
 ### 🐍 Python Version (Community-Contributed, Unofficial)
 
@@ -101,7 +102,7 @@ For inquiries regarding licensing or collaborations, please contact:
 
 ---
 **We welcome academic users to explore and build upon this work, under the terms of the license.**
-**Commercial use of the code or the Torque Clustering algorithm is not permitted without explicit permission from the author.**
+**Commercial use of the code or the Torque Clustering (TORC) algorithm is not permitted without explicit permission from the author.**
 
 <h4>**License**</h4>
 
